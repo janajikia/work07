@@ -2,7 +2,7 @@
     width: 100%;
     height: 1975px;
     background-color: white;
-  border: 3px red solid;
+  /* border: 3px red solid; */
 }
 
 /* header */
@@ -46,8 +46,6 @@ align-items: center;
     width: 100%;
     height: 730px;
     object-fit: cover;
-   
-  
 }
 
 .box{
@@ -75,7 +73,7 @@ align-items: center;
 /* section2 */
 .section_2{
     width: 100%;
-    height: 760px;
+    height: 730px;
     padding: 90px;
     /* border: #E08C11 10px solid; */
 }
@@ -127,3 +125,33 @@ border-radius: 40px, 40px, 0px, 0px;
 
 
 /* footer */
+
+footer{
+    width: 100%;
+    height: 372px;
+    background-color: black;  
+}
+.footer_div{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.footer_title{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+span{
+    /* font-size: 60px; */
+    color:#DCB47A ;
+}
+button{
+    width: 199px;
+    height: 63px;
+    background-color:#DCB47A ;
+    border-radius: 40px;
+    margin-top: 70px;
+}
