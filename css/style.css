@@ -39,12 +39,13 @@ align-items: center;
 .section1{
     width: 100%;
     height: 37%;
-   
     position: relative;
     
 }
 .section_img{
     width: 100%;
+    height: 730px;
+    object-fit: cover;
    
   
 }
@@ -67,7 +68,62 @@ align-items: center;
     font-size: 65px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(236, 232, 223)
+    color: rgb(47, 34, 4)
     
 }
 
+/* section2 */
+.section_2{
+    width: 100%;
+    height: 760px;
+    padding: 90px;
+    /* border: #E08C11 10px solid; */
+}
+.cards_div{
+    width: 100%;
+/* border: 10px #DCB47A solid; */
+display: flex;
+flex-direction: column;
+}
+
+.title{
+     color: #E08C11;
+    font-size: 75px;
+    margin-bottom: 50px; 
+}
+
+.cards{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.card1{
+    border: 3px #DCB47A solid;
+    border-radius: 40px;
+    width: 390px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;   
+}
+.text_title{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.price{
+    color: #E08C11;
+    font-size: 20px;
+}
+
+.image{
+width: 308px;
+height: 225px;
+border-radius: 40px, 40px, 0px, 0px;
+}
+
+
+/* footer */
